@@ -1,8 +1,6 @@
 package com.codeforces;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -20,7 +18,6 @@ public class PolycarpsRestorePermutations {
 
 	}
 
-	@SuppressWarnings("unlikely-arg-type")
 	private static void callPermutationMethod(int n, int[] q) {
 		int[] p = new int[n];
 		int register = -1;

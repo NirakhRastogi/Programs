@@ -37,7 +37,7 @@ public class AmpleSyrup {
 	                    ans[i + 1][j + 1] = Math.max(ans[i + 1][j + 1], ans[i][j] + 2 * Math.PI * rh[i][0] * rh[i][1] + (j == 0 ? Math.PI * rh[i][0] * rh[i][0] : 0));
 	                }
 	            }
-	            System.out.println("Case #" + (testNumber+1) + ": " + ans[nk[0]][nk[1]]);
+				System.out.println("Case #" + (testNumber+1) + ": " + ans[nk[0]][nk[1]]);
 	            bw.append("Case #" + (testNumber+1) + ": " + ans[nk[0]][nk[1]]);
 	            bw.newLine();
 			}

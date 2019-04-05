@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SavingTheUniverseAgain",
+            "request": "launch",
+            "mainClass": "com.codejam.savingtheuniverseagain.SavingTheUniverseAgain",
+            "projectName": "CompetitivePrograms"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "com.codejam.parentingpartnering.Test",
+            "projectName": "CompetitivePrograms"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "CompetitivePrograms"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ParentingPartnering",
+            "request": "launch",
+            "mainClass": "com.codejam.parentingpartnering.ParentingPartnering",
+            "projectName": "CompetitivePrograms"
+        }
+    ]
+}
